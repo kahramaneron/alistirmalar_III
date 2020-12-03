@@ -1,6 +1,6 @@
 #INSERTION ALGORITHM
 
-def Insertion(dizi):
+def insertionSort(dizi):
 
     for i in range(1,len(dizi)):
 
@@ -18,7 +18,7 @@ def Insertion(dizi):
 
 
 dizi = [11,7,15,3,16,13]
-Insertion(dizi)
+insertionSort(dizi)
 
 print("Siralanmis Dizi: ")
 
