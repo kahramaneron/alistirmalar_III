@@ -1,4 +1,4 @@
-
+#QUICK SORT ALGORITHM
 
 def quickSort(dizi, alt, üst):
     pivot = dizi[üst]
