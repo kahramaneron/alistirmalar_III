@@ -1,4 +1,4 @@
-#INSERTION ALGORITHM
+#INSERTION SORT ALGORITHM
 
 def insertionSort(dizi):
 
@@ -16,11 +16,6 @@ def insertionSort(dizi):
             dizi[j+1]=key
 
 
+    return dizi
 
-dizi = [11,7,15,3,16,13]
-insertionSort(dizi)
-
-print("Siralanmis Dizi: ")
-
-for i in range(len(dizi)):
-    print("%d" %dizi[i], end = " ")
+print("Siralanmis Dizi: " + str(insertionSort([7,11,15,13,16,3])))
