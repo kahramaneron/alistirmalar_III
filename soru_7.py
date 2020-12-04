@@ -1,4 +1,4 @@
-
+#BUBLE SORT ALGORITHM
 
 def bubleSort(dizi):
 
