@@ -11,12 +11,7 @@ def selectionSort(dizi):
                 ind = j
 
         dizi[i],dizi[ind]= dizi[ind],dizi[i]
+    
+    return dizi
 
-
-dizi = [3,2,1,4]
-selectionSort(dizi)
-
-print("Siralanmis Dizi: ")
-
-for i in range(0,len(dizi)):
-    print("%d" %dizi[i], end=" ")
+print("Siralanmis Dizi: "+ str(selectionSort([3,2,1,4,0])))
