@@ -1,4 +1,4 @@
-
+#SELECTION SORT ALGORITHM
 
 def selectionSort(dizi):
 
